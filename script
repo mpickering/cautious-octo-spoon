@@ -1,0 +1,2 @@
+$CABAL --store-dir=$PWD/new_store build p1
+$CABAL --store-dir=$PWD/new_new_store --package-db=$PWD/new_store/ghc-9.6.2/package.db/ build p2
